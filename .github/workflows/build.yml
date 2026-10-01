@@ -40,5 +40,7 @@ jobs:
           push: true
           tags: |
             ghcr.io/xlmc/workbuddy2api-panel:latest
+          labels: |
+            org.opencontainers.image.source=https://github.com/xlmc/wb2api-builder
           cache-from: type=gha
           cache-to: type=gha,mode=max
